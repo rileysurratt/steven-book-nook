@@ -27,10 +27,7 @@ $font-type: monospace;
 }
 
 .book-card-base {
-  display: inline-flex;
   padding: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  gap: 20px;
   margin-left: 17px;
 }
 
@@ -38,10 +35,8 @@ $font-type: monospace;
 .card {
   border: 2px solid $text;
   border-radius: 0.5em;
-  display: inline-flex;
-  margin: auto;
   overflow: hidden;
-  grid-template-rows: max-content 200px 1fr;
+  // making the boxes vertical stacked instead of horizontally stacked
 }
 
 .card-body {
@@ -79,3 +74,9 @@ $font-type: monospace;
 }
 
 // footer section
+.footer-section {
+  font-family: $font-type;
+  font-size: 16px;
+}
+
+// feedback link
