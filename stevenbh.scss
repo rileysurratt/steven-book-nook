@@ -9,7 +9,7 @@ $font-type: monospace;
 .body-page {
   background-color: $secondary;
 }
-// fix text color
+
 
 // main header & sub
 .title {
@@ -29,6 +29,7 @@ $font-type: monospace;
 .book-card-base {
   padding: 10px;
   margin-left: 17px;
+  
 }
 
 // styling for card - base of card
@@ -36,7 +37,9 @@ $font-type: monospace;
   border: 2px solid $text;
   border-radius: 0.5em;
   overflow: hidden;
-  // making the boxes vertical stacked instead of horizontally stacked
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-body {
@@ -78,5 +81,3 @@ $font-type: monospace;
   font-family: $font-type;
   font-size: 16px;
 }
-
-// feedback link
